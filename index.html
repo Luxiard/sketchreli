@@ -1,2 +1,287 @@
-<h1>Sketch-Testseite</h1>
-<p>Hallo Comedy-Welt!</p>
+<!DOCTYPE html>
+
+<html lang="de">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Produktseite mit Comedy-Kommentar</title>
+
+  <style>
+
+    body {
+
+      font-family: Arial, sans-serif;
+
+      margin: 20px;
+
+      background-color: #f5f5f5;
+
+    }
+
+    .container {
+
+      max-width: 1000px;
+
+      margin: auto;
+
+      background-color: white;
+
+      padding: 20px;
+
+      border-radius: 8px;
+
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+    }
+
+    .product-section {
+
+      display: flex;
+
+      gap: 20px;
+
+    }
+
+    .product-image {
+
+      flex: 1;
+
+    }
+
+    .product-image img {
+
+      width: 100%;
+
+      border-radius: 8px;
+
+    }
+
+    .product-details {
+
+      flex: 2;
+
+    }
+
+    .product-title {
+
+      font-size: 24px;
+
+      font-weight: bold;
+
+    }
+
+    .product-description {
+
+      font-size: 16px;
+
+      color: #555;
+
+    }
+
+    .product-price {
+
+      font-size: 20px;
+
+      color: green;
+
+      font-weight: bold;
+
+    }
+
+    .buy-button {
+
+      padding: 10px 20px;
+
+      background-color: #ff9900;
+
+      border: none;
+
+      color: white;
+
+      font-size: 16px;
+
+      cursor: pointer;
+
+      border-radius: 4px;
+
+      margin-top: 10px;
+
+    }
+
+    .buy-button:hover {
+
+      background-color: #e68a00;
+
+    }
+
+    .comments-section {
+
+      margin-top: 40px;
+
+    }
+
+    .comment {
+
+      display: flex;
+
+      gap: 10px;
+
+      background-color: #f0f0f0;
+
+      padding: 10px;
+
+      border-radius: 4px;
+
+      margin-bottom: 10px;
+
+      align-items: flex-start;
+
+    }
+
+    .comment img {
+
+      width: 50px;
+
+      height: 50px;
+
+      border-radius: 50%;
+
+    }
+
+    .comment-content {
+
+      flex: 1;
+
+    }
+
+    .comment-content .username {
+
+      font-weight: bold;
+
+    }
+
+    .comment-content .text {
+
+      margin-top: 5px;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+
+
+<div class="container">
+
+  <div class="product-section">
+
+    <div class="product-image">
+
+      <img src="https://i.ebayimg.com/images/g/0~MAAOSwGhBe49fC/s-l1200.jpg" alt="Produktbild">
+
+    </div>
+
+    <div class="product-details">
+
+      <div class="product-title">Handgefertigtes Wandkreuz aus Olivenholz</div>
+
+      <div class="product-description">
+
+        Dieses Kreuz ist aus hochwertigem Olivenholz gefertigt und eignet sich ideal als Dekoration oder Geschenk.
+
+      </div>
+
+      <div class="product-price">€ 800</div>
+
+      <button class="buy-button" onclick="buyNow()">Jetzt kaufen</button>
+
+    </div>
+
+  </div>
+
+
+
+  <div class="comments-section">
+
+    <h2>Kommentare</h2>
+
+    <div class="comment">
+
+      <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRDzuqYhwavvt63Wnh10TGfiAMlRl_MTgQQSGHVvwBrDvmoHqJgEEu0KM_BS3_mguK6jc3EzmpAqbCwGJB960_XgQ"Profilbild">
+
+      <div class="comment-content">
+
+        <div class="username">30_Silberlinge</div>
+
+        <div class="text">
+
+          Gibt es 3 Tage Geld-zurück-Garantie?        </div>
+
+
+
+      </div>
+
+    </div>
+
+<div class="comment">
+
+      <img src="https://mediaproxy.tvtropes.org/width/1200/https://static.tvtropes.org/pmwiki/pub/images/cooljesus_0.jpg" alt="Profilbild">
+
+      <div class="comment-content">
+
+        <div class="username">J_to_the_Christ</div>
+
+        <div class="text">
+
+          Top Qualität! Für dieses Kreuz würde ich sterben!        </div>
+
+  </div>
+
+</div>
+
+    <div class="comment">
+
+      <img src="https://filmtett.ro/uploads/thumbs/hir_3255.jpg">
+
+      <div class="comment-content">
+
+        <div class="username">PontiusMachtPilates</div>
+
+        <div class="text">
+
+          Geile Dinger! Ich hab schon 3 stück bestellt!        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+
+<script>
+
+  function buyNow() {
+
+    alert("Danke für Ihren Kauf!");
+
+  }
+
+</script>
+
+
+
+
+
+</body>
+
+</html>
